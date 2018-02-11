@@ -242,6 +242,9 @@ static const CGFloat kMaximumToolbeltSizeAsFractionOfWindow = 0.5;
 }
 
 - (BOOL)tabBarShouldBeVisible {
+    if ([iTermAdvancedSettingsModel disableTabBar]) {
+        return NO;
+    }
     if (self.tabBarControl.flashing) {
         return YES;
     } else {

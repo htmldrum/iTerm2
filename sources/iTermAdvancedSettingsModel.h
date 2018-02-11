@@ -130,6 +130,7 @@
 + (BOOL)focusReportingEnabled;
 
 + (BOOL)tabTitlesUseSmartTruncation;
++ (BOOL)disableTabBar;
 + (BOOL)serializeOpeningMultipleFullScreenWindows;
 + (BOOL)disablePotentiallyInsecureEscapeSequences;
 + (int)maxSemanticHistoryPrefixOrSuffix;
